@@ -4,6 +4,7 @@ import com.iwhammy.domain.Book
 import com.iwhammy.domain.Books
 import com.iwhammy.domain.SearchQuery
 import com.iwhammy.driver.BookSearchDriver
+import com.iwhammy.driver.MockSearchDriver
 import io.mockk.every
 import io.mockk.mockk
 import org.junit.jupiter.api.Assertions.*
@@ -15,7 +16,7 @@ internal class SearchGatewayTest{
 
     @Test
     internal fun testSearchBooksByTitle() {
-        val bookSearchDriver = mockk<BookSearchDriver>()
+        val bookSearchDriver = mockk<IBookSearchDriver>()
         searchGateway = SearchGateway(bookSearchDriver)
 
         val expected = Books(listOf(Book("Domain-Driver Design",

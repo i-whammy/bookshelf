@@ -16,7 +16,7 @@ internal class RecordGatewayTest {
 
     @Test
     internal fun testGetRecords() {
-        val recordDriver = mockk<RecordDriver>()
+        val recordDriver = mockk<IRecordDriver>()
         recordGateway = RecordGateway(recordDriver)
 
         every { recordDriver.get() } returns listOf(BookRecordEntity(LocalDate.of(2020,1,1),

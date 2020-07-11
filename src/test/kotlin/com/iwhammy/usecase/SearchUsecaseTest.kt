@@ -16,7 +16,7 @@ internal class SearchUsecaseTest {
 
     @Test
     internal fun testSearchBooks() {
-        val gateway = mockk<SearchGateway>()
+        val gateway = mockk<SearchPort>()
         searchUsecase = SearchUsecase(gateway)
         val query = SearchQuery("Domain")
         val expected = Books(listOf(Book("Domain-Driven Design",
