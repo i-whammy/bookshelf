@@ -3,8 +3,6 @@ package com.iwhammy.gateway
 import com.iwhammy.domain.Book
 import com.iwhammy.domain.Books
 import com.iwhammy.domain.SearchQuery
-import com.iwhammy.driver.BookSearchDriver
-import com.iwhammy.driver.MockSearchDriver
 import io.mockk.every
 import io.mockk.mockk
 import org.junit.jupiter.api.Assertions.*

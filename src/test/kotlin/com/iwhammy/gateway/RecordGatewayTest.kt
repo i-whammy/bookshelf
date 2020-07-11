@@ -2,7 +2,6 @@ package com.iwhammy.gateway
 
 import com.iwhammy.domain.BookRecord
 import com.iwhammy.domain.BookRecords
-import com.iwhammy.driver.RecordDriver
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.verify

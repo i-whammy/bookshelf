@@ -3,7 +3,6 @@ package com.iwhammy.usecase
 import com.iwhammy.domain.Book
 import com.iwhammy.domain.Books
 import com.iwhammy.domain.SearchQuery
-import com.iwhammy.gateway.SearchGateway
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.verify
