@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: booksApi
+search:
+  rakuten:
+    endpoint: https://app.rakuten.co.jp/services/api/BooksBook/Search/20170404
+    applicationId: 12345678901234567890

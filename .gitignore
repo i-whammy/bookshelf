@@ -3,3 +3,4 @@ build/
 lib/
 .gradle/
 *.iml
+src/main/resources/application.yml
