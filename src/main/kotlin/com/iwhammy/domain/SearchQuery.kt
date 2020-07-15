@@ -1,5 +1,3 @@
 package com.iwhammy.domain
 
-data class SearchQuery(val query: String) {
-
-}
+data class SearchQuery(val query: String)
